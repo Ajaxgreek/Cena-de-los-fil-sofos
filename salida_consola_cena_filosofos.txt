@@ -1,0 +1,92 @@
+PROGRAMA: Problema de la cena de los filosofos
+COMPILACION: gcc -Wall -Wextra -pthread cena_filosofos.c -o cena_filosofos
+EJECUCION: ./cena_filosofos
+
+SALIDA DE LA CONSOLA (una ejecucion de referencia):
+Nota: el orden de los mensajes puede cambiar en cada ejecucion por la concurrencia.
+
+=== PROBLEMA DE LA CENA DE LOS FILOSOFOS ===
+Hay 5 filosofos y cada uno comera 3 veces.
+
+Filosofo 0 esta pensando.
+Filosofo 1 esta pensando.
+Filosofo 2 esta pensando.
+Filosofo 3 esta pensando.
+Filosofo 4 esta pensando.
+Filosofo 0 toma el tenedor 1 (derecho).
+Filosofo 0 toma el tenedor 0 (izquierdo).
+Filosofo 0 esta COMIENDO (1/3).
+Filosofo 2 toma el tenedor 2 (izquierdo).
+Filosofo 2 toma el tenedor 3 (derecho).
+Filosofo 2 esta COMIENDO (1/3).
+Filosofo 4 toma el tenedor 4 (izquierdo).
+Filosofo 2 dejo ambos tenedores.
+Filosofo 2 esta pensando.
+Filosofo 0 dejo ambos tenedores.
+Filosofo 0 esta pensando.
+Filosofo 4 toma el tenedor 0 (derecho).
+Filosofo 4 esta COMIENDO (1/3).
+Filosofo 3 toma el tenedor 3 (izquierdo).
+Filosofo 1 toma el tenedor 1 (izquierdo).
+Filosofo 1 toma el tenedor 2 (derecho).
+Filosofo 1 esta COMIENDO (1/3).
+Filosofo 4 dejo ambos tenedores.
+Filosofo 4 esta pensando.
+Filosofo 1 dejo ambos tenedores.
+Filosofo 1 esta pensando.
+Filosofo 3 toma el tenedor 4 (derecho).
+Filosofo 3 esta COMIENDO (1/3).
+Filosofo 2 toma el tenedor 2 (izquierdo).
+Filosofo 0 toma el tenedor 1 (derecho).
+Filosofo 0 toma el tenedor 0 (izquierdo).
+Filosofo 0 esta COMIENDO (2/3).
+Filosofo 2 toma el tenedor 3 (derecho).
+Filosofo 2 esta COMIENDO (2/3).
+Filosofo 0 dejo ambos tenedores.
+Filosofo 3 dejo ambos tenedores.
+Filosofo 3 esta pensando.
+Filosofo 0 esta pensando.
+Filosofo 4 toma el tenedor 4 (izquierdo).
+Filosofo 4 toma el tenedor 0 (derecho).
+Filosofo 4 esta COMIENDO (2/3).
+Filosofo 1 toma el tenedor 1 (izquierdo).
+Filosofo 4 dejo ambos tenedores.
+Filosofo 4 esta pensando.
+Filosofo 2 dejo ambos tenedores.
+Filosofo 2 esta pensando.
+Filosofo 1 toma el tenedor 2 (derecho).
+Filosofo 1 esta COMIENDO (2/3).
+Filosofo 3 toma el tenedor 3 (izquierdo).
+Filosofo 3 toma el tenedor 4 (derecho).
+Filosofo 3 esta COMIENDO (2/3).
+Filosofo 3 dejo ambos tenedores.
+Filosofo 3 esta pensando.
+Filosofo 1 dejo ambos tenedores.
+Filosofo 1 esta pensando.
+Filosofo 4 toma el tenedor 4 (izquierdo).
+Filosofo 4 toma el tenedor 0 (derecho).
+Filosofo 4 esta COMIENDO (3/3).
+Filosofo 0 toma el tenedor 1 (derecho).
+Filosofo 2 toma el tenedor 2 (izquierdo).
+Filosofo 2 toma el tenedor 3 (derecho).
+Filosofo 2 esta COMIENDO (3/3).
+Filosofo 2 dejo ambos tenedores.
+Filosofo 2 termino de comer.
+Filosofo 3 toma el tenedor 3 (izquierdo).
+Filosofo 0 toma el tenedor 0 (izquierdo).
+Filosofo 0 esta COMIENDO (3/3).
+Filosofo 4 dejo ambos tenedores.
+Filosofo 4 termino de comer.
+Filosofo 3 toma el tenedor 4 (derecho).
+Filosofo 3 esta COMIENDO (3/3).
+Filosofo 0 dejo ambos tenedores.
+Filosofo 0 termino de comer.
+Filosofo 1 toma el tenedor 1 (izquierdo).
+Filosofo 1 toma el tenedor 2 (derecho).
+Filosofo 1 esta COMIENDO (3/3).
+Filosofo 3 dejo ambos tenedores.
+Filosofo 3 termino de comer.
+Filosofo 1 dejo ambos tenedores.
+Filosofo 1 termino de comer.
+
+Todos los filosofos terminaron. Programa finalizado.
